@@ -1,4 +1,4 @@
-# watcmd
+# ❓💻 watcmd
 
 A CLI tool to get UNIX commands from text explanations using AI
 
