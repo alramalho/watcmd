@@ -59,14 +59,6 @@ If you want to contribute or modify the tool:
 
 3. Make your changes and test them locally.
 
-## Publishing to PyPI
-
-To publish updates to PyPI:
-
-1. Update the version in `pyproject.toml`
-2. Build the package: `python -m build`
-3. Upload to PyPI: `python -m twine upload dist/*`
-
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE.txt) file for details.
