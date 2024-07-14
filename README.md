@@ -1,9 +1,7 @@
 # ❓💻 watcmd
 
 ### A simple CLI tool to get UNIX commands from text explanations using AI
-
-
-https://github.com/user-attachments/assets/b0ce442d-4492-4482-a24a-3d47b27c382b
+![image](https://github.com/user-attachments/assets/b9397477-0027-4d9e-8515-9ecb6e59bd8a)
 
 ## Installation
 
