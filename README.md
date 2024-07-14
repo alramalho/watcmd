@@ -15,13 +15,13 @@ pip install watcmd
 
 ## Setup
 
-After installation, you need to configure your Anthropic API key. You can do this by running:
+After installation, you need to configure your OpenAI API key. You can do this by running:
 
 ```
 watcmd setup YOUR_API_KEY
 ```
 
-Replace `YOUR_API_KEY` with your actual Anthropic API key. This will save your API key securely in a configuration file, so you don't need to set it as an environment variable each time.
+Replace `YOUR_API_KEY` with your actual OpenAI API key. This will save your API key securely in a configuration file, so you don't need to set it as an environment variable each time.
 
 ## Usage
 
