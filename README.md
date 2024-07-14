@@ -35,32 +35,8 @@ For example:
 
 ```
 watcmd to list all files in a directory
+> ls -al
 ```
-
-The tool will return an explanation of how to perform the task in a UNIX system.
-
-You can also use the explicit query command:
-
-```
-watcmd query your command here
-```
-
-## Development
-
-If you want to contribute or modify the tool:
-
-1. Clone this repository:
-   ```
-   git clone https://github.com/alramalho/watcmd.git
-   cd watcmd
-   ```
-
-2. Install the package in editable mode:
-   ```
-   pip install -e .
-   ```
-
-3. Make your changes and test them locally.
 
 ## License
 
