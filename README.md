@@ -13,13 +13,17 @@ pip install watcmd
 
 ## Setup
 
-After installation, you need to configure your OpenAI API key. You can do this by running:
+After installation, you need to configure your Vercel AI Gateway API key. You can do this by running:
 
 ```
-watcmd setup YOUR_API_KEY
+watcmd --setup YOUR_API_KEY
 ```
 
-Replace `YOUR_API_KEY` with your actual OpenAI API key. This will save your API key securely in a configuration file, so you don't need to set it as an environment variable each time.
+Replace `YOUR_API_KEY` with your actual Vercel AI Gateway API key (create one in the Vercel dashboard under AI Gateway → API Keys). This will save your API key securely in a configuration file, so you don't need to set it as an environment variable each time.
+
+Alternatively, you can set the `AI_GATEWAY_API_KEY` environment variable.
+
+watcmd always uses the latest Claude Sonnet model available on the gateway (checked once a day), falling back to `anthropic/claude-sonnet-5.5`.
 
 ## Usage
 

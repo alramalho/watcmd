@@ -1,2 +1,4 @@
 dist
 .venv/
+
+**/.DS_Store
